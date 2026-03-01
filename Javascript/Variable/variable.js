@@ -51,3 +51,66 @@
 // Hoisting means JavaScript moves variable declarations to the top.
 // console.log(x);
 // var x = 10;
+
+// Output:undefined  
+
+//🔹 Basic Level Questions
+
+// What is a variable in JavaScript?
+
+// How do you declare a variable in JavaScript?
+
+// What is the difference between var, let, and const?
+
+// Can we redeclare a variable declared with let?
+
+// Can we reassign a variable declared with const?
+
+// What is variable initialization?
+
+// What happens if you use a variable without declaring it?
+
+
+// 🔹 Scope-Based Questions (Very Important)
+
+// What is scope in JavaScript?
+
+// What is the difference between global scope and local scope?
+
+// What is block scope?
+
+// Is var block-scoped? Why?
+
+// Why is let and const preferred over var?
+
+//🔹 Hoisting Questions (Most Asked 🔥)
+
+// What is hoisting?
+
+// Are var, let, and const hoisted?
+
+// What is Temporal Dead Zone (TDZ)?
+
+
+//🔹 Advanced Level Questions
+
+// What is the difference between declaration and definition?
+
+// Can const object properties be changed? Why?
+
+// What happens when you declare a variable without var, let, or const?
+
+// How does JavaScript handle variable shadowing?
+
+// What is the difference between primitive and reference type variables?
+// Const accountId = 145678,
+// let accountEmail = "atul@yopmail.com"
+// var accountPassword = "Jewar"
+
+// console.log("accountEmail")s
+
+accountEmail = "atul@yopmail.com"
+accountPassword = "atul@123"
+accountCity = "Noida"
+
+console.table([accountEmail, accountCity, accountPassword])
